@@ -1,0 +1,21 @@
+{
+	"private": true,
+	"engines": {
+		"node": ">=10"
+	},
+	"scripts": {
+		"start": "now dev",
+		"test": "xo"
+	},
+	"dependencies": {
+		"got": "^10.2.1",
+		"gpx-for-runners": "^1.0.6",
+		"ky": "^0.16.1",
+		"ky-universal": "^0.3.0",
+		"xmldom": "^0.2.1"
+	},
+	"devDependencies": {
+		"now": "^16.4.0",
+		"xo": "^0.25.3"
+	}
+}
