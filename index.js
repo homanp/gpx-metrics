@@ -13,6 +13,7 @@ module.exports = async (request, response) => {
 			distance: gpxData.distance()
 		};
 
+		response.setHeader('Access-Control-Allow-Origin', '*');
 		response.send(trailData);
 	} catch (error) {
 		response.status(400);
