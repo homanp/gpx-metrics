@@ -12,7 +12,7 @@
 		"gpx-for-runners": "^1.0.6",
 		"ky": "^0.16.1",
 		"ky-universal": "^0.3.0",
-		"xmldom": "^0.2.1"
+		"xmldom": "^0.5.0"
 	},
 	"devDependencies": {
 		"now": "^16.4.0",
